@@ -8,15 +8,22 @@
 		<version>2.7.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.eaiesb.training</groupId>
-	<artifactId>HelloSummerInternsMongoDB</artifactId>
+	<groupId>com.example</groupId>
+	<artifactId>HelloMongoDB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>HelloSummerInternsMongoDB</name>
+	<name>HelloMongoDB</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
+	<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+<groupId>org.projectlombok</groupId>
+<artifactId>lombok</artifactId>
+<version>1.16.22</version>
+<scope>provided</scope>
+</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
@@ -31,12 +38,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
 		<dependency>
-    <groupId>org.springdoc</groupId>
-    <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.6.4</version>
-</dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.4</version>
+		</dependency>
+		 
 	</dependencies>
 
 	<build>
